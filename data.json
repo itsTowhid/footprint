@@ -12,6 +12,10 @@
             "en": "Senior Software Engineer",
             "bn": "সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার"
         },
+        "page_title": {
+            "en": "Towhid - Software Engineer",
+            "bn": "তৌহিদ - সফটওয়্যার ইঞ্জিনিয়ার"
+        },
         "bio": {
             "en": [
                 "Software Engineer with 10+ years of experience in Flutter(4+), Android Native (4+) and Django(2+).",
@@ -19,7 +23,7 @@
                 "A lifelong learner passionate about contributing and excelling in a fast-paced environment."
             ],
             "bn": [
-                "ফ্লাটার (৪+ বছর) এবং অ্যান্ড্রয়েড নেটিভ (৪ বছর) এ ৮+ বছরের অভিজ্ঞতা সম্পন্ন মোবাইল ইঞ্জিনিয়ার।",
+                "ফ্লাটার (৪+ বছর), অ্যান্ড্রয়েড নেটিভ (৪ বছর) এবং জাঙ্গো (২+ বছর) এ ১০+ বছরের অভিজ্ঞতা সম্পন্ন সফটওয়্যার ইঞ্জিনিয়ার।",
                 "জটিল মোবাইল অ্যাপ্লিকেশনের জন্য সুদৃশ্য সমাধান ডিজাইন এবং ডেলিভার করতে শক্তিশালী ডেটা স্ট্রাকচার ও অ্যালগরিদম দক্ষতা ব্যবহার করেন।",
                 "দ্রুতগতির পরিবেশে অবদান রাখতে এবং উৎকর্ষতা অর্জনে আগ্রহী একজন আজীবন শিক্ষার্থী।"
             ]
@@ -28,8 +32,8 @@
         "stats": [
             {
                 "value": {
-                    "en": "8+",
-                    "bn": "৮+"
+                    "en": "10+",
+                    "bn": "১০+"
                 },
                 "label": {
                     "en": "Years Experience",
@@ -38,22 +42,22 @@
             },
             {
                 "value": {
-                    "en": "4+",
-                    "bn": "৪+"
+                    "en": "8+",
+                    "bn": "৮+"
                 },
                 "label": {
-                    "en": "Years Flutter",
-                    "bn": "বছর ফ্লাটার"
+                    "en": "Years Mobile",
+                    "bn": "বছর মোবাইল"
                 }
             },
             {
                 "value": {
-                    "en": "4+",
-                    "bn": "৪+"
+                    "en": "2+",
+                    "bn": "২+"
                 },
                 "label": {
-                    "en": "Years Android",
-                    "bn": "বছর অ্যান্ড্রয়েড"
+                    "en": "Years Backend",
+                    "bn": "বছর ব্যাকএন্ড"
                 }
             }
         ],
@@ -109,7 +113,10 @@
             },
             "links": [
                 {
-                    "label": "View Project",
+                    "label": {
+                        "en": "View Project",
+                        "bn": "প্রজেক্ট দেখুন"
+                    },
                     "type": "view",
                     "url": "#"
                 }
@@ -131,7 +138,10 @@
             },
             "links": [
                 {
-                    "label": "View Project",
+                    "label": {
+                        "en": "View Project",
+                        "bn": "প্রজেক্ট দেখুন"
+                    },
                     "type": "view",
                     "url": "#"
                 }
@@ -183,18 +193,18 @@
         }
     ],
     "resume": {
-        "intro": {
-            "en": "I'm a highly skilled Mobile Engineer with more than 8 years of experience in building cross-platform and native mobile applications. On this page, you can learn more about my knowledge stack and my previous work experience.",
-            "bn": "আমি একজন অত্যন্ত দক্ষ মোবাইল ইঞ্জিনিয়ার যিনি ক্রস-প্ল্যাটফর্ম এবং নেটিভ মোবাইল অ্যাপ্লিকেশন তৈরিতে ৮ বছরেরও বেশি অভিজ্ঞতা সম্পন্ন। এই পৃষ্ঠায়, আপনি আমার জ্ঞানের স্ট্যাক এবং আমার পূর্ববর্তী কাজের অভিজ্ঞতা সম্পর্কে আরও জানতে পারবেন।"
-        },
         "downloadUrl": "#",
+        "intro": {
+            "en": "Experienced Mobile Engineer with over 8 years of expertise in architecting high-performance cross-platform and native applications. Explore the technical stack and professional journey defining this work.",
+            "bn": "ক্রস-প্ল্যাটফর্ম এবং নেটিভ অ্যাপ্লিকেশন তৈরিতে ৮ বছরেরও বেশি অভিজ্ঞতাসম্পন্ন মোবাইল ইঞ্জিনিয়ার। এই কাজের নেপথ্যে থাকা প্রযুক্তিগত দক্ষতা এবং পেশাদার যাত্রা সম্পর্কে বিস্তারিত জানুন।"
+        },
         "skillsIntro": {
-            "en": "Here are the frameworks, libraries, services and languages I have experience with. This is not a complete list! I'm constantly gaining new skills, and hence it can be a little bit outdated.",
-            "bn": "এখানে ফ্রেমওয়ার্ক, লাইব্রেরি, সার্ভিস এবং ভাষা রয়েছে যার সাথে আমার অভিজ্ঞতা রয়েছে। এটি একটি সম্পূর্ণ তালিকা নয়! আমি ক্রমাগত নতুন দক্ষতা অর্জন করছি, তাই এটি সামান্য পুরানো হতে পারে।"
+            "en": "Frameworks, libraries, and languages powering modern mobile solutions. Tools are continuously evolving to stay at the forefront of innovation.",
+            "bn": "আধুনিক মোবাইল সলিউশনে ব্যবহৃত ফ্রেমওয়ার্ক, লাইব্রেরি এবং প্রোগ্রামিং ল্যাঙ্গুয়েজ। উদ্ভাবনের শীর্ষে থাকতে প্রযুক্তির তালিকায় প্রতিনিয়ত নতুন মাত্রা যোগ করা হচ্ছে।"
         },
         "workIntro": {
-            "en": "Below you will find a summary of my past employment experience. Additionally, if you require, you can",
-            "bn": "নিচে আমার পূর্ববর্তী চাকরির অভিজ্ঞতার একটি সারাংশ পাবেন। অতিরিক্তভাবে, যদি আপনার প্রয়োজন হয়, আপনি পারেন"
+            "en": "A chronological summary of professional milestones and contributions. For a more detailed career overview, feel free to",
+            "bn": "পেশাদার জীবনের উল্লেখযোগ্য অর্জন এবং অবদানের একটি সারাংশ। কর্মজীবনের বিস্তারিত তথ্যের জন্য চাইলে"
         },
         "skills": [
             {
@@ -486,10 +496,10 @@
                     "bn": "জানুয়ারি ২০২৩"
                 },
                 "endDate": {
-                    "en": "March 2024",
-                    "bn": "মার্চ ২০২৪"
+                    "en": "Present",
+                    "bn": "বর্তমান"
                 },
-                "current": false,
+                "current": true,
                 "duties": {
                     "en": [
                         "Managed the 360Health mobile team, overseeing the successful development and launch of a comprehensive app catering to millions of users.",

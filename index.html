@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar">
         <div class="nav-brand">
-            <span class="logo">&lt;/&gt;</span><span class="logo-text">Towhid</span>
+            <span class="logo">&lt;/&gt;</span><span class="logo-text" id="nav-name">Towhid</span>
         </div>
         <div class="nav-links">
             <a href="#home" class="nav-link active" data-section="home" data-en="HOME" data-bn="হোম">HOME</a>
@@ -86,9 +86,8 @@
                 </div>
 
                 <div class="section-block">
-                    <h2 class="section-title" data-en="Featured Projects" data-bn="বৈশিষ্ট্যযুক্ত প্রজেক্টস">Featured
-                        Projects</h2>
-                    <div id="featured-projects"></div>
+                    <h2 class="section-title" data-en="Current Position" data-bn="বর্তমান অবস্থান">Current Position</h2>
+                    <div id="current-position"></div>
                 </div>
 
                 <div class="section-block">
@@ -109,7 +108,18 @@
         <!-- Resume Section -->
         <section id="resume" class="section">
             <div class="container">
-                <h1 class="page-title" data-en="My Resume / CV" data-bn="আমার জীবনবৃত্তান্ত">My Resume / CV</h1>
+                <div class="resume-header">
+                    <h1 class="page-title" data-en="Resume / CV" data-bn="জীবনবৃত্তান্ত">Resume / CV</h1>
+                    <a href="resume.pdf" class="download-resume-btn" download>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                        <span data-en="Download Resume" data-bn="রেজুমে ডাউনলোড করুন">Download Resume</span>
+                    </a>
+                </div>
                 <p class="page-description" id="resume-intro"></p>
                 <div class="squiggle">
                     <svg width="120" height="20" viewBox="0 0 120 20" fill="none">
@@ -191,7 +201,7 @@
         <!-- Contact Section -->
         <section id="contact" class="section">
             <div class="container">
-                <h1 class="page-title" data-en="Get in touch" data-bn="যোগাযোগ করুন">Get in touch</h1>
+                <h1 class="page-title" data-en="Get in touch" data-bn="যোগাযোগ">Get in touch</h1>
                 <p class="page-description" data-en="Do you have an exciting project? Let's talk!"
                     data-bn="আপনার কি কোনো আকর্ষণীয় প্রজেক্ট আছে? চলুন কথা বলি!">Do you have an exciting project? Let's
                     talk!</p>
@@ -236,19 +246,6 @@
         <div class="footer-right">
             <a href="#resume" class="footer-link" data-en="Tech Stack" data-bn="টেক স্ট্যাক">Tech Stack</a>
             <a href="#" class="footer-link" data-en="Profiles" data-bn="প্রোফাইল">Profiles</a>
-            <button class="footer-btn" aria-label="Settings">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="3" />
-                    <path
-                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
-                </svg>
-            </button>
-            <button class="footer-btn" aria-label="Accessibility">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 8v8m-4-4h8" />
-                </svg>
-            </button>
         </div>
     </footer>
 
