@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <canvas id="flowfield-canvas"></canvas>
     <nav class="navbar">
         <div class="nav-brand">
             <span class="logo">&lt;/&gt;</span><span class="logo-text" id="nav-name">Towhid</span>
@@ -24,6 +25,14 @@
         <div class="nav-actions">
             <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
                 <span class="lang-text">EN</span>
+            </button>
+            <button class="anim-toggle" id="anim-toggle" aria-label="Toggle animation">
+                <svg class="anim-on-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+                </svg>
+                <svg class="anim-off-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+                </svg>
             </button>
             <div class="nav-social">
                 <a href="https://github.com/itsTowhid" class="social-link" aria-label="GitHub" target="_blank"
@@ -249,6 +258,7 @@
         </div>
     </footer>
 
+    <script src="flowfield.js"></script>
     <script src="app.js"></script>
 </body>
 
