@@ -1,47 +1,92 @@
 {
     "personal": {
-        "name": "Towhid",
-        "location": "Rayerbag, Dhaka - 1236",
-        "role": "Senior Software Engineer",
-        "bio": [
-            "Software Engineer with 10+ years of experience in Flutter(4+), Android Native (4+) and Django(2+).",
-            "Utilizes strong Data Structures & Algorithms skills to design and deliver elegant solutions for complex mobile applications.",
-            "A lifelong learner passionate about contributing and excelling in a fast-paced environment."
-        ],
+        "name": {
+            "en": "Towhid",
+            "bn": "তৌহিদ"
+        },
+        "full_name": {
+            "en": "Towhidul Islam",
+            "bn": "তৌহিদুল ইসলাম"
+        },
+        "role": {
+            "en": "Senior Software Engineer",
+            "bn": "সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার"
+        },
+        "bio": {
+            "en": [
+                "Software Engineer with 10+ years of experience in Flutter(4+), Android Native (4+) and Django(2+).",
+                "Utilizes strong Data Structures & Algorithms skills to design and deliver elegant solutions for complex mobile applications.",
+                "A lifelong learner passionate about contributing and excelling in a fast-paced environment."
+            ],
+            "bn": [
+                "ফ্লাটার (৪+ বছর) এবং অ্যান্ড্রয়েড নেটিভ (৪ বছর) এ ৮+ বছরের অভিজ্ঞতা সম্পন্ন মোবাইল ইঞ্জিনিয়ার।",
+                "জটিল মোবাইল অ্যাপ্লিকেশনের জন্য সুদৃশ্য সমাধান ডিজাইন এবং ডেলিভার করতে শক্তিশালী ডেটা স্ট্রাকচার ও অ্যালগরিদম দক্ষতা ব্যবহার করেন।",
+                "দ্রুতগতির পরিবেশে অবদান রাখতে এবং উৎকর্ষতা অর্জনে আগ্রহী একজন আজীবন শিক্ষার্থী।"
+            ]
+        },
         "email": "bt.towhid@gmail.com",
-        "phone": "(+880) 1913-651282",
         "stats": [
             {
-                "value": "10+",
-                "label": "Years Experience"
+                "value": {
+                    "en": "8+",
+                    "bn": "৮+"
+                },
+                "label": {
+                    "en": "Years Experience",
+                    "bn": "বছরের অভিজ্ঞতা"
+                }
             },
             {
-                "value": "4+",
-                "label": "Years Flutter"
+                "value": {
+                    "en": "4+",
+                    "bn": "৪+"
+                },
+                "label": {
+                    "en": "Years Flutter",
+                    "bn": "বছর ফ্লাটার"
+                }
             },
             {
-                "value": "2+",
-                "label": "Years Django"
+                "value": {
+                    "en": "4+",
+                    "bn": "৪+"
+                },
+                "label": {
+                    "en": "Years Android",
+                    "bn": "বছর অ্যান্ড্রয়েড"
+                }
             }
         ],
         "social": {
             "linkedin": {
-                "label": "LinkedIn",
+                "label": {
+                    "en": "LinkedIn",
+                    "bn": "লিঙ্কডইন"
+                },
                 "url": "https://linkedin.com/in/itsTowhid",
                 "handle": "itsTowhid"
             },
             "github": {
-                "label": "GitHub",
+                "label": {
+                    "en": "GitHub",
+                    "bn": "গিটহাব"
+                },
                 "url": "https://github.com/itsTowhid",
                 "handle": "itsTowhid"
             },
             "stackoverflow": {
-                "label": "Stack Overflow",
-                "url": "https://stackoverflow.com/users/Towhid",
+                "label": {
+                    "en": "Stack Overflow",
+                    "bn": "স্ট্যাক ওভারফ্লো"
+                },
+                "url": "https://stackoverflow.com/users/411552/towhid",
                 "handle": "Towhid"
             },
             "leetcode": {
-                "label": "LeetCode",
+                "label": {
+                    "en": "LeetCode",
+                    "bn": "লিটকোড"
+                },
                 "url": "https://leetcode.com/itsTowhid",
                 "handle": "itsTowhid"
             }
@@ -49,356 +94,720 @@
     },
     "projects": [
         {
-            "title": "HishabX",
-            "description": "Small business accounting app simplifies finances with easy expense tracking, customer management, & cloud-based synchronization.",
+            "title": {
+                "en": "HishabX",
+                "bn": "হিসাব এক্স"
+            },
+            "description": {
+                "en": "Small business accounting app simplifies finances with easy expense tracking, customer management, & cloud-based synchronization.",
+                "bn": "ছোট ব্যবসার হিসাবনিকাশ অ্যাপ সহজ ব্যয় ট্র্যাকিং, গ্রাহক ব্যবস্থাপনা এবং ক্লাউড-ভিত্তিক সিঙ্ক্রোনাইজেশনের মাধ্যমে আর্থিক বিষয় সহজ করে।"
+            },
             "featured": true,
-            "badge": "Production",
+            "badge": {
+                "en": "Production",
+                "bn": "প্রোডাকশন"
+            },
             "links": [
                 {
                     "label": "View Project",
+                    "type": "view",
                     "url": "#"
                 }
             ]
         },
         {
-            "title": "UTF Mall",
-            "description": "Users can browse shops, offers, and more before going to the mall. A comprehensive shopping companion app.",
+            "title": {
+                "en": "UTF Mall",
+                "bn": "UTF মল"
+            },
+            "description": {
+                "en": "Users can browse shops, offers, and more before going to the mall. A comprehensive shopping companion app.",
+                "bn": "ব্যবহারকারীরা মলে যাওয়ার আগে দোকান, অফার এবং আরও অনেক কিছু ব্রাউজ করতে পারেন। একটি ব্যাপক শপিং সঙ্গী অ্যাপ।"
+            },
             "featured": true,
-            "badge": "Production",
+            "badge": {
+                "en": "Production",
+                "bn": "প্রোডাকশন"
+            },
             "links": [
                 {
                     "label": "View Project",
+                    "type": "view",
                     "url": "#"
                 }
             ]
         },
         {
             "title": "Adobe XD Plugin",
-            "description": "Generate dart code from custom-drawn shapes in Adobe XD. Streamlines the design-to-development workflow.",
+            "description": {
+                "en": "Generate dart code from custom-drawn shapes in Adobe XD. Streamlines the design-to-development workflow.",
+                "bn": "Adobe XD-এ কাস্টম-আঁকা আকৃতি থেকে Dart কোড জেনারেট করুন। ডিজাইন-টু-ডেভেলপমেন্ট ওয়ার্কফ্লো সহজ করে।"
+            },
             "featured": false,
-            "badge": "Open Source",
+            "badge": {
+                "en": "Open Source",
+                "bn": "ওপেন সোর্স"
+            },
             "links": [
                 {
-                    "label": "GitHub",
-                    "url": "#"
+                    "label": {
+                        "en": "GitHub",
+                        "bn": "গিটহাব"
+                    },
+                    "type": "github",
+                    "url": "https://github.com/itsTowhid"
                 }
             ]
         },
         {
             "title": "Animated Counter Widget",
-            "description": "Animated Counter Widget inspired by modern UI patterns. A customizable Flutter package for beautiful counting animations.",
+            "description": {
+                "en": "Animated Counter Widget inspired by modern UI patterns. A customizable Flutter package for beautiful counting animations.",
+                "bn": "আধুনিক UI প্যাটার্ন দ্বারা অনুপ্রাণিত অ্যানিমেটেড কাউন্টার উইজেট। সুন্দর কাউন্টিং অ্যানিমেশনের জন্য একটি কাস্টমাইজযোগ্য ফ্লাটার প্যাকেজ।"
+            },
             "featured": false,
-            "badge": "Open Source",
+            "badge": {
+                "en": "Open Source",
+                "bn": "ওপেন সোর্স"
+            },
             "links": [
                 {
-                    "label": "GitHub",
-                    "url": "#"
+                    "label": {
+                        "en": "GitHub",
+                        "bn": "গিটহাব"
+                    },
+                    "type": "github",
+                    "url": "https://github.com/itsTowhid"
                 }
             ]
         }
     ],
     "resume": {
-        "intro": "I'm a highly skilled Mobile Engineer with more than 8 years of experience in building cross-platform and native mobile applications. On this page, you can learn more about my knowledge stack and my previous work experience.",
+        "intro": {
+            "en": "I'm a highly skilled Mobile Engineer with more than 8 years of experience in building cross-platform and native mobile applications. On this page, you can learn more about my knowledge stack and my previous work experience.",
+            "bn": "আমি একজন অত্যন্ত দক্ষ মোবাইল ইঞ্জিনিয়ার যিনি ক্রস-প্ল্যাটফর্ম এবং নেটিভ মোবাইল অ্যাপ্লিকেশন তৈরিতে ৮ বছরেরও বেশি অভিজ্ঞতা সম্পন্ন। এই পৃষ্ঠায়, আপনি আমার জ্ঞানের স্ট্যাক এবং আমার পূর্ববর্তী কাজের অভিজ্ঞতা সম্পর্কে আরও জানতে পারবেন।"
+        },
         "downloadUrl": "#",
-        "skillsIntro": "Here are the frameworks, libraries, services and languages I have experience with. This is not a complete list! I'm constantly gaining new skills, and hence it can be a little bit outdated.",
+        "skillsIntro": {
+            "en": "Here are the frameworks, libraries, services and languages I have experience with. This is not a complete list! I'm constantly gaining new skills, and hence it can be a little bit outdated.",
+            "bn": "এখানে ফ্রেমওয়ার্ক, লাইব্রেরি, সার্ভিস এবং ভাষা রয়েছে যার সাথে আমার অভিজ্ঞতা রয়েছে। এটি একটি সম্পূর্ণ তালিকা নয়! আমি ক্রমাগত নতুন দক্ষতা অর্জন করছি, তাই এটি সামান্য পুরানো হতে পারে।"
+        },
+        "workIntro": {
+            "en": "Below you will find a summary of my past employment experience. Additionally, if you require, you can",
+            "bn": "নিচে আমার পূর্ববর্তী চাকরির অভিজ্ঞতার একটি সারাংশ পাবেন। অতিরিক্তভাবে, যদি আপনার প্রয়োজন হয়, আপনি পারেন"
+        },
         "skills": [
             {
-                "name": "Dart",
+                "name": {
+                    "en": "Dart",
+                    "bn": "ডার্ট"
+                },
                 "icon": "dart",
                 "category": "languages"
             },
             {
-                "name": "Python",
+                "name": {
+                    "en": "Python",
+                    "bn": "পাইথন"
+                },
                 "icon": "python",
                 "category": "languages"
             },
             {
-                "name": "Kotlin",
+                "name": {
+                    "en": "Kotlin",
+                    "bn": "কোটলিন"
+                },
                 "icon": "kotlin",
                 "category": "languages"
             },
             {
-                "name": "Java",
+                "name": {
+                    "en": "Java",
+                    "bn": "জাভা"
+                },
                 "icon": "java",
                 "category": "languages"
             },
             {
-                "name": "Swift",
+                "name": {
+                    "en": "Swift",
+                    "bn": "সুইফট"
+                },
                 "icon": "swift",
                 "category": "languages"
             },
             {
-                "name": "C",
+                "name": {
+                    "en": "C",
+                    "bn": "সি"
+                },
                 "icon": "c",
                 "category": "languages"
             },
             {
-                "name": "Flutter",
+                "name": {
+                    "en": "Flutter",
+                    "bn": "ফ্লাটার"
+                },
                 "icon": "flutter",
                 "category": "flutter"
             },
             {
-                "name": "BLoC",
+                "name": {
+                    "en": "BLoC",
+                    "bn": "ব্লক"
+                },
                 "icon": "bloc",
                 "category": "flutter"
             },
             {
-                "name": "Riverpod",
+                "name": {
+                    "en": "Riverpod",
+                    "bn": "রিভারপড"
+                },
                 "icon": "riverpod",
                 "category": "flutter"
             },
             {
-                "name": "GetX",
+                "name": {
+                    "en": "GetX",
+                    "bn": "গিটএক্স"
+                },
                 "icon": "getx",
                 "category": "flutter"
             },
             {
-                "name": "Provider",
+                "name": {
+                    "en": "Provider",
+                    "bn": "প্রোভাইডার"
+                },
                 "icon": "provider",
                 "category": "flutter"
             },
             {
-                "name": "Rive",
+                "name": {
+                    "en": "Rive",
+                    "bn": "রিভ"
+                },
                 "icon": "rive",
                 "category": "flutter"
             },
             {
-                "name": "RxDart",
+                "name": {
+                    "en": "RxDart",
+                    "bn": "আরএক্সডার্ট"
+                },
                 "icon": "rxdart",
                 "category": "flutter"
             },
             {
-                "name": "FlutterGen",
+                "name": {
+                    "en": "FlutterGen",
+                    "bn": "ফ্লাটারজেন"
+                },
                 "icon": "fluttergen",
                 "category": "flutter"
             },
             {
-                "name": "AutoRoute",
+                "name": {
+                    "en": "AutoRoute",
+                    "bn": "অটোরুট"
+                },
                 "icon": "autoroute",
                 "category": "flutter"
             },
             {
-                "name": "GetIt",
+                "name": {
+                    "en": "GetIt",
+                    "bn": "গেটইট"
+                },
                 "icon": "getit",
                 "category": "flutter"
             },
             {
-                "name": "Platform Channel",
+                "name": {
+                    "en": "Platform Channel",
+                    "bn": "প্ল্যাটফর্ম চ্যানেল"
+                },
                 "icon": "platformchannel",
                 "category": "flutter"
             },
             {
-                "name": "MVVM",
+                "name": {
+                    "en": "MVVM",
+                    "bn": "এমভিভিএম"
+                },
                 "icon": "mvvm",
                 "category": "android"
             },
             {
-                "name": "MVI",
+                "name": {
+                    "en": "MVI",
+                    "bn": "এমভিআই"
+                },
                 "icon": "mvi",
                 "category": "android"
             },
             {
-                "name": "JetPack Components",
+                "name": {
+                    "en": "JetPack Components",
+                    "bn": "জেটপ্যাক কম্পোনেন্টস"
+                },
                 "icon": "jetpack",
                 "category": "android"
             },
             {
-                "name": "HILT",
+                "name": {
+                    "en": "HILT",
+                    "bn": "হিল্ট"
+                },
                 "icon": "hilt",
                 "category": "android"
             },
             {
-                "name": "SOLID",
+                "name": {
+                    "en": "SOLID",
+                    "bn": "সলিড"
+                },
                 "icon": "solid",
                 "category": "architecture"
             },
             {
-                "name": "TDD",
+                "name": {
+                    "en": "TDD",
+                    "bn": "টিডিডি"
+                },
                 "icon": "tdd",
                 "category": "architecture"
             },
             {
-                "name": "Design Patterns",
+                "name": {
+                    "en": "Design Patterns",
+                    "bn": "ডিজাইন প্যাটার্নস"
+                },
                 "icon": "designpatterns",
                 "category": "architecture"
             },
             {
-                "name": "Clean Architecture",
+                "name": {
+                    "en": "Clean Architecture",
+                    "bn": "ক্লিন আর্কিটেকচার"
+                },
                 "icon": "cleanarchitecture",
                 "category": "architecture"
             },
             {
-                "name": "Firebase",
+                "name": {
+                    "en": "Firebase",
+                    "bn": "ফায়ারবেস"
+                },
                 "icon": "firebase",
                 "category": "other"
             },
             {
-                "name": "Git",
+                "name": {
+                    "en": "Git",
+                    "bn": "গিট"
+                },
                 "icon": "git",
                 "category": "other"
             },
             {
-                "name": "Socket",
+                "name": {
+                    "en": "Socket",
+                    "bn": "সকেট"
+                },
                 "icon": "socket",
                 "category": "other"
             },
             {
-                "name": "WebRTC",
+                "name": {
+                    "en": "WebRTC",
+                    "bn": "ওয়েবআরটিসি"
+                },
                 "icon": "webrtc",
                 "category": "other"
             },
             {
-                "name": "Google Maps",
+                "name": {
+                    "en": "Google Maps",
+                    "bn": "গুগল ম্যাপস"
+                },
                 "icon": "googlemaps",
                 "category": "other"
             },
             {
-                "name": "Lottie",
+                "name": {
+                    "en": "Lottie",
+                    "bn": "লটি"
+                },
                 "icon": "lottie",
                 "category": "other"
             },
             {
-                "name": "Django",
+                "name": {
+                    "en": "Django",
+                    "bn": "জাঙ্গো"
+                },
                 "icon": "django",
-                "category": "other"
+                "category": "framework"
             },
             {
-                "name": "DRF",
+                "name": {
+                    "en": "DRF",
+                    "bn": "ডিআরএফ"
+                },
                 "icon": "drf",
                 "category": "other"
             }
         ],
-        "workIntro": "Below you will find a summary of my past employment experience. Additionally, if you require, you can",
         "experience": [
             {
-                "title": "Sr. Software Engineer — Mobile",
-                "company": "MetLife Bangladesh",
-                "location": "Bangladesh",
+                "title": {
+                    "en": "Sr. Software Engineer — Mobile",
+                    "bn": "সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার — মোবাইল"
+                },
+                "company": {
+                    "en": "MetLife Bangladesh",
+                    "bn": "মেটলাইফ বাংলাদেশ"
+                },
+                "location": {
+                    "en": "Bangladesh",
+                    "bn": "বাংলাদেশ"
+                },
                 "flag": "🇧🇩",
-                "type": "Contractual",
-                "startDate": "January 2023",
-                "endDate": "March 2024",
+                "type": {
+                    "en": "Contractual",
+                    "bn": "চুক্তিভিত্তিক"
+                },
+                "startDate": {
+                    "en": "January 2023",
+                    "bn": "জানুয়ারি ২০২৩"
+                },
+                "endDate": {
+                    "en": "March 2024",
+                    "bn": "মার্চ ২০২৪"
+                },
                 "current": false,
-                "duties": [
-                    "Managed the 360Health mobile team, overseeing the successful development and launch of a comprehensive app catering to millions of users.",
-                    "Ensured seamless functionality and customer satisfaction throughout the app lifecycle."
-                ]
+                "duties": {
+                    "en": [
+                        "Managed the 360Health mobile team, overseeing the successful development and launch of a comprehensive app catering to millions of users.",
+                        "Ensured seamless functionality and customer satisfaction throughout the app lifecycle."
+                    ],
+                    "bn": [
+                        "৩৬০হেলথ মোবাইল টিম পরিচালনা করেছেন, লক্ষ লক্ষ ব্যবহারকারীকে সেবা প্রদানকারী একটি ব্যাপক অ্যাপের সফল উন্নয়ন এবং লঞ্চ তদারকি করেছেন।",
+                        "অ্যাপের জীবনচক্র জুড়ে নির্বিঘ্ন কার্যকারিতা এবং গ্রাহক সন্তুষ্টি নিশ্চিত করেছেন।"
+                    ]
+                }
             },
             {
-                "title": "Sr. Software Engineer",
-                "company": "Telenor Health",
-                "location": "Bangladesh",
+                "title": {
+                    "en": "Sr. Software Engineer",
+                    "bn": "সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার"
+                },
+                "company": {
+                    "en": "Telenor Health",
+                    "bn": "টেলিনর হেলথ"
+                },
+                "location": {
+                    "en": "Bangladesh",
+                    "bn": "বাংলাদেশ"
+                },
                 "flag": "🇧🇩",
-                "type": "Contractual",
-                "startDate": "July 2021",
-                "endDate": "January 2023",
+                "type": {
+                    "en": "Contractual",
+                    "bn": "চুক্তিভিত্তিক"
+                },
+                "startDate": {
+                    "en": "July 2021",
+                    "bn": "জুলাই ২০২১"
+                },
+                "endDate": {
+                    "en": "January 2023",
+                    "bn": "জানুয়ারি ২০২৩"
+                },
                 "current": false,
-                "duties": [
-                    "Led the development and launch of a Grameen digital health app.",
-                    "Oversaw feature development, bug fixes, and seamless functionality.",
-                    "Prioritized user satisfaction throughout the deployment process."
-                ]
+                "duties": {
+                    "en": [
+                        "Led the development and launch of a Grameen digital health app.",
+                        "Oversaw feature development, bug fixes, and seamless functionality.",
+                        "Prioritized user satisfaction throughout the deployment process."
+                    ],
+                    "bn": [
+                        "গ্রামীণ ডিজিটাল হেলথ অ্যাপের উন্নয়ন এবং লঞ্চের নেতৃত্ব দিয়েছেন।",
+                        "ফিচার উন্নয়ন, বাগ ফিক্স এবং নির্বিঘ্ন কার্যকারিতা তদারকি করেছেন।",
+                        "ডিপ্লয়মেন্ট প্রক্রিয়া জুড়ে ব্যবহারকারী সন্তুষ্টিকে অগ্রাধিকার দিয়েছেন।"
+                    ]
+                }
             },
             {
-                "title": "Software Engineer",
-                "company": "Shohoz",
-                "location": "Bangladesh",
+                "title": {
+                    "en": "Software Engineer",
+                    "bn": "সফটওয়্যার ইঞ্জিনিয়ার"
+                },
+                "company": {
+                    "en": "Shohoz",
+                    "bn": "সহজ"
+                },
+                "location": {
+                    "en": "Bangladesh",
+                    "bn": "বাংলাদেশ"
+                },
                 "flag": "🇧🇩",
-                "type": "Full-Time",
-                "startDate": "June 2019",
-                "endDate": "July 2021",
+                "type": {
+                    "en": "Full-Time",
+                    "bn": "পূর্ণকালীন"
+                },
+                "startDate": {
+                    "en": "June 2019",
+                    "bn": "জুন ২০১৯"
+                },
+                "endDate": {
+                    "en": "July 2021",
+                    "bn": "জুলাই ২০২১"
+                },
                 "current": false,
-                "duties": [
-                    "Tackled technical challenges and delivered impactful features.",
-                    "Successfully resolved countless bugs and implemented key functionalities like Driver Doctor (problem detection & fixes)."
-                ]
+                "duties": {
+                    "en": [
+                        "Tackled technical challenges and delivered impactful features.",
+                        "Successfully resolved countless bugs and implemented key functionalities like Driver Doctor (problem detection & fixes)."
+                    ],
+                    "bn": [
+                        "কারিগরি চ্যালেঞ্জ মোকাবেলা করেছেন এবং প্রভাবশালী ফিচার ডেলিভার করেছেন।",
+                        "অসংখ্য বাগ সফলভাবে সমাধান করেছেন এবং ড্রাইভার ডক্টরের মতো মূল ফাংশনালিটি বাস্তবায়ন করেছেন (সমস্যা সনাক্তকরণ ও সমাধান)।"
+                    ]
+                }
             },
             {
-                "title": "Software Engineer",
-                "company": "Venture Solutions & Landknock",
-                "location": "Bangladesh",
+                "title": {
+                    "en": "Software Engineer",
+                    "bn": "সফটওয়্যার ইঞ্জিনিয়ার"
+                },
+                "company": {
+                    "en": "Venture Solutions & Landknock",
+                    "bn": "ভেঞ্চার সলিউশনস ও ল্যান্ডনক"
+                },
+                "location": {
+                    "en": "Bangladesh",
+                    "bn": "বাংলাদেশ"
+                },
                 "flag": "🇧🇩",
-                "type": "Full-Time",
-                "startDate": "October 2018",
-                "endDate": "May 2019",
+                "type": {
+                    "en": "Full-Time",
+                    "bn": "পূর্ণকালীন"
+                },
+                "startDate": {
+                    "en": "October 2018",
+                    "bn": "অক্টোবর ২০১৮"
+                },
+                "endDate": {
+                    "en": "May 2019",
+                    "bn": "মে ২০১৯"
+                },
                 "current": false,
-                "duties": [
-                    "Developed and maintained an Agent tracking-based application.",
-                    "Worked on location tracking and real-time data synchronization features."
-                ]
+                "duties": {
+                    "en": [
+                        "Developed and maintained an Agent tracking-based application.",
+                        "Worked on location tracking and real-time data synchronization features."
+                    ],
+                    "bn": [
+                        "এজেন্ট ট্র্যাকিং-ভিত্তিক একটি অ্যাপ্লিকেশন উন্নয়ন ও রক্ষণাবেক্ষণ করেছেন।",
+                        "লোকেশন ট্র্যাকিং এবং রিয়েল-টাইম ডেটা সিঙ্ক্রোনাইজেশন ফিচার নিয়ে কাজ করেছেন।"
+                    ]
+                }
             },
             {
-                "title": "Jr. Software Engineer",
-                "company": "ST Solutions",
-                "location": "Bangladesh",
+                "title": {
+                    "en": "Jr. Software Engineer",
+                    "bn": "জুনিয়র সফটওয়্যার ইঞ্জিনিয়ার"
+                },
+                "company": {
+                    "en": "ST Solutions",
+                    "bn": "এসটি সলিউশনস"
+                },
+                "location": {
+                    "en": "Bangladesh",
+                    "bn": "বাংলাদেশ"
+                },
                 "flag": "🇧🇩",
-                "type": "Full-Time",
-                "startDate": "January 2017",
-                "endDate": "September 2018",
+                "type": {
+                    "en": "Full-Time",
+                    "bn": "পূর্ণকালীন"
+                },
+                "startDate": {
+                    "en": "January 2017",
+                    "bn": "জানুয়ারি ২০১৭"
+                },
+                "endDate": {
+                    "en": "September 2018",
+                    "bn": "সেপ্টেম্বর ২০১৮"
+                },
                 "current": false,
-                "duties": [
-                    "Designed & developed apps for different platforms including Desktop App (Nippon Paint) and Android & iOS app (Regent)."
-                ]
+                "duties": {
+                    "en": [
+                        "Designed & developed apps for different platforms including Desktop App (Nippon Paint) and Android & iOS app (Regent)."
+                    ],
+                    "bn": [
+                        "বিভিন্ন প্ল্যাটফর্মের জন্য অ্যাপ ডিজাইন ও ডেভেলপ করেছেন যার মধ্যে ডেস্কটপ অ্যাপ (নিপ্পন পেইন্ট) এবং অ্যান্ড্রয়েড ও আইওএস অ্যাপ (রিজেন্ট) অন্তর্ভুক্ত।"
+                    ]
+                }
             }
         ]
     },
     "education": {
-        "degree": "BSc in Computer Science & Engineering",
-        "institution": "Northern University Bangladesh (NUB)",
-        "year": "2015"
+        "degree": {
+            "en": "BSc in Computer Science & Engineering",
+            "bn": "বিএসসি ইন কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং"
+        },
+        "institution": {
+            "en": "Northern University Bangladesh (NUB)",
+            "bn": "নর্দার্ন ইউনিভার্সিটি বাংলাদেশ (এনইউবি)"
+        },
+        "year": {
+            "en": "2015",
+            "bn": "২০১৫"
+        }
     },
     "certifications": [
         {
-            "title": "Machine Learning & Data Science",
-            "institution": "Divine IT",
-            "year": "2019"
+            "title": {
+                "en": "Machine Learning & Data Science",
+                "bn": "মেশিন লার্নিং ও ডেটা সায়েন্স"
+            },
+            "institution": {
+                "en": "Divine IT",
+                "bn": "ডিভাইন আইটি"
+            },
+            "year": {
+                "en": "2019",
+                "bn": "২০১৯"
+            }
         },
         {
-            "title": "Mobile App Development (Android)",
-            "institution": "BASIS - BITM",
-            "year": "2016"
+            "title": {
+                "en": "Mobile App Development (Android)",
+                "bn": "মোবাইল অ্যাপ ডেভেলপমেন্ট (অ্যান্ড্রয়েড)"
+            },
+            "institution": {
+                "en": "BASIS - BITM",
+                "bn": "বেসিস - বিআইটিএম"
+            },
+            "year": {
+                "en": "2016",
+                "bn": "২০১৬"
+            }
         }
     ],
     "interests": [
-        "Competitive Programming",
-        "Machine Learning",
-        "MicroController",
-        "Walking"
+        {
+            "en": "Competitive Programming",
+            "bn": "কম্পিটিটিভ প্রোগ্রামিং"
+        },
+        {
+            "en": "Machine Learning",
+            "bn": "মেশিন লার্নিং"
+        },
+        {
+            "en": "MicroController",
+            "bn": "মাইক্রোকন্ট্রোলার"
+        },
+        {
+            "en": "Walking",
+            "bn": "হাঁটা"
+        }
     ],
     "awards": [
         {
-            "title": "Secret Treasure - Game",
-            "event": "EATL App Development Contest",
-            "year": "2014",
-            "rank": "1st"
+            "title": {
+                "en": "Secret Treasure - Game",
+                "bn": "সিক্রেট ট্রেজার - গেম"
+            },
+            "event": {
+                "en": "EATL App Development Contest",
+                "bn": "ইএটিএল অ্যাপ ডেভেলপমেন্ট কনটেস্ট"
+            },
+            "year": {
+                "en": "2014",
+                "bn": "২০১৪"
+            },
+            "rank": {
+                "en": "1st",
+                "bn": "১ম"
+            }
         },
         {
-            "title": "Fill Cart - FB Game",
-            "event": "EATL App Development Contest",
-            "year": "2014",
-            "rank": "1st"
+            "title": {
+                "en": "Fill Cart - FB Game",
+                "bn": "ফিল কার্ট - এফবি গেম"
+            },
+            "event": {
+                "en": "EATL App Development Contest",
+                "bn": "ইএটিএল অ্যাপ ডেভেলপমেন্ট কনটেস্ট"
+            },
+            "year": {
+                "en": "2014",
+                "bn": "২০১৪"
+            },
+            "rank": {
+                "en": "1st",
+                "bn": "১ম"
+            }
         },
         {
-            "title": "Hajj Wizard - App",
-            "event": "EATL App Development Contest",
-            "year": "2014",
-            "rank": "4th"
+            "title": {
+                "en": "Hajj Wizard - App",
+                "bn": "হাজ্জ উইজার্ড - অ্যাপ"
+            },
+            "event": {
+                "en": "EATL App Development Contest",
+                "bn": "ইএটিএল অ্যাপ ডেভেলপমেন্ট কনটেস্ট"
+            },
+            "year": {
+                "en": "2014",
+                "bn": "২০১৪"
+            },
+            "rank": {
+                "en": "4th",
+                "bn": "৪র্থ"
+            }
         },
         {
-            "title": "My Salat - Firefox App",
-            "event": "Firefox OS App Challenge",
-            "year": "2015",
-            "rank": "1st"
+            "title": {
+                "en": "My Salat - Firefox App",
+                "bn": "মাই সালাত - ফায়ারফক্স অ্যাপ"
+            },
+            "event": {
+                "en": "Firefox OS App Challenge",
+                "bn": "ফায়ারফক্স ওএস অ্যাপ চ্যালেঞ্জ"
+            },
+            "year": {
+                "en": "2015",
+                "bn": "২০১৫"
+            },
+            "rank": {
+                "en": "1st",
+                "bn": "১ম"
+            }
         }
     ],
     "leetcode": {
-        "solved": "1000+",
-        "since": "2022",
+        "solved": {
+            "en": "1000+",
+            "bn": "১০০০+"
+        },
+        "since": {
+            "en": "2022",
+            "bn": "২০২২"
+        },
         "url": "https://leetcode.com/itsTowhid"
     },
     "contact": {
         "backup": {
-            "label": "DM me on LinkedIn",
+            "label": {
+                "en": "DM me on LinkedIn",
+                "bn": "লিঙ্কডইনে মেসেজ করুন"
+            },
             "url": "https://linkedin.com/in/itsTowhid"
         }
     }
