@@ -4,7 +4,7 @@ window.bgAnimations = window.bgAnimations || {};
 let canvas, ctx, width, height;
 let animationId = null;
 let isAnimationRunning = false;
-let currentAnimation = 'flowfield';
+let currentAnimation = 'space';
 
 function setup() {
     canvas = document.getElementById('flowfield-canvas');
@@ -34,11 +34,11 @@ function updateBackground() {
 
 function animate() {
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    
+
     if (window.bgAnimations[currentAnimation] && window.bgAnimations[currentAnimation].draw) {
         window.bgAnimations[currentAnimation].draw(ctx, width, height, isDark);
     }
-    
+
     animationId = requestAnimationFrame(animate);
 }
 
