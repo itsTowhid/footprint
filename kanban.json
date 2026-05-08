@@ -1,0 +1,30 @@
+{
+  "board_name": "footprint-main",
+  "workspace": "/root/projects/footprint",
+  "columns": {
+    "backlog": [],
+    "todo": [],
+    "in_progress": [],
+    "review": [],
+    "done": []
+  },
+  "agents": {
+    "kyra": { "role": "orchestrator", "skills": ["kanban-worker", "terminal", "file"] },
+    "neo":  { "role": "developer", "skills": ["kanban-worker", "terminal", "file"] },
+    "trinity": { "role": "designer", "skills": ["kanban-worker", "terminal", "file"] }
+  },
+  "tasks": [
+    {
+      "id": "neo-001",
+      "title": "Implement feedback fixes from 2026-05-05 site review",
+      "description": "Fix broken links, add SEO meta tags, fix heading hierarchy, add contact method, add testimonials/skills section.",
+      "assignee": "neo",
+      "status": "todo",
+      "priority": "high",
+      "created_at": "2026-05-06T12:00:00Z",
+      "branch": "feedback-fixes-2026-05-06",
+      "due_date": "2026-05-06",
+      "source_feedback": "feedback/2026-05-05-site-review.md"
+    }
+  ]
+}
